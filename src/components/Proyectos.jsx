@@ -19,23 +19,27 @@ const Proyectos = ({ titulo }, ref) => {
             <div className='tablaProyectos'>
                 <Carta
                     alt="Imagen del proyecto Age of Empire 2"
-                    repositorio=""
+                    repositorio="https://github.com/Yerkoala/Age-Of-Empire-2-DE-Wiki"
                     demo="https://ageofempire2de-f3504.web.app/"
                     imagen={ageofempire2} title="Age Of Empire 2 Wiki"
                     descripcion="Este proyecto muestra todas las unidades unicas del age of empire 2 DE con una breve descripción de esta más la imagen de la unidad, está conectada a una base de datos en Firebase/Firestore que yo mismo hice." />
                 <Carta
                     alt="Imagen del proyecto Age of Empire 2 Ionic"
+                    repositorio="https://github.com/Yerkoala/Age-Of-Empire-2-DE-IONIC"
                     noDisponible={noDisponible}
                     imagen={ageofempire2ionic} title="Age Of Empire 2 Ionic"
                     descripcion="Mismo proyecto que el anterior pero adaptado para telefonos android y desarrollado en Ionic/ReactJs." />
                 <Carta
                     alt="Imagen del proyecto Breaking Bad"
                     repositorio="https://github.com/Yerkoala/Breaking-Bad-Querys"
+                    demo="https://breakingbadquerys.web.app/"
                     imagen={breakingbad}
                     title="Breaking Bad Querys"
                     descripcion="Página de consultas a una API externa (no es mía) de breaking bad, basicamente muestra frases que han dicho algunos personajes a lo largo de la serie." />
                 <Carta
                     alt="Imagen del proyecto Crud Paginas Web"
+                    repositorio="https://github.com/Yerkoala/Crud-Firestore-PaginasWeb"
+                    noDisponible={noDisponible}
                     imagen={crudpaginasweb} title="Crud Paginas Web"
                     descripcion="Este proyecto es basicamente un crud conectado a una base de datos creada por mi en Firebase/Firestore, permite agregar, editar y borrar nuevas tarjetas con informacion de paginas web." />
                 <Carta

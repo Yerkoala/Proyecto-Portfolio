@@ -9,7 +9,6 @@ const Contacto = ({ titulo }, ref) => {
         <div className="contactoCuerpoCentrado">
           <h1>Contacto Directo</h1>
           <h2><ion-icon name="mail-outline"></ion-icon>yerkoserranoc@gmail.com</h2>
-          <h2 className='correoLargo'><ion-icon name="mail-outline"></ion-icon>yerko.serrano1901@alumnos.ubiobio.cl</h2>
           <h2><ion-icon name="logo-whatsapp"></ion-icon>+569 66640384</h2>
           <h1 >Redes</h1>
           <a href="https://www.instagram.com/yerkoala/"><h2><ion-icon name="logo-instagram"></ion-icon>@yerkoala</h2></a>

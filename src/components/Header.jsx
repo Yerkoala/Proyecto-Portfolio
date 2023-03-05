@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Style.css"
-import { Icon } from '@material-ui/core';
 
 const Header = ({handleClickProyectos, handleClickContacto, handleClickSkills, handleClickHome}) => {
     return (
@@ -11,7 +10,7 @@ const Header = ({handleClickProyectos, handleClickContacto, handleClickSkills, h
                 <p onClick={()=>handleClickProyectos()} className='botonHeader'>Proyectos</p>
                 <p onClick={()=>handleClickSkills()} className='botonHeader'>Skills</p>
                 <p onClick={()=>handleClickContacto()} className='botonHeader'>Contacto</p>
-                <a href="http://google.cl"><button className='curriculum'>Descargar CV</button></a>
+                <a href="https://drive.google.com/file/d/14tIBuKmgIOOhU_gGyyYz_8pU7jsdigSz/view?usp=share_link" target='_blank' rel="noreferrer"><button className='curriculum'>Descargar CV</button></a>
             </div>
         </div>
     )
