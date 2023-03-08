@@ -481,15 +481,24 @@ a {
         height: auto;
     }
 
+    .contenedorTablaProyectos {
+        width: 100%;
+        overflow-x: auto;
+      }
+
     .tablaProyectos {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: max-content;
+        gap: 10px;
     }
 
     .proyectoCuerpoParrafo {
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .carta {
+        flex-shrink: 0;
     }
 
     /*------------------- IMAGEN PROYECTO EN GRANDE ---------------------*/
