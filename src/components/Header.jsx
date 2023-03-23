@@ -10,7 +10,7 @@ const Header = ({handleClickProyectos, handleClickContacto, handleClickSkills, h
                 <p onClick={()=>handleClickProyectos()} className='botonHeader'>Proyectos</p>
                 <p onClick={()=>handleClickSkills()} className='botonHeader'>Skills</p>
                 <p onClick={()=>handleClickContacto()} className='botonHeader'>Contacto</p>
-                <a href="https://drive.google.com/file/d/1VYad3WgxaTO9hvdi6HLveRl15bBSTIZk/view?usp=sharing" target='_blank' rel="noreferrer"><button className='curriculum'>Descargar CV</button></a>
+                <a href="https://drive.google.com/file/d/1xxQhQZUeKUOcX95mrHLSsXLMoq6TmKGk/view?usp=sharing" target='_blank' rel="noreferrer"><button className='curriculum'>Descargar CV</button></a>
             </div>
         </div>
     )
